@@ -9,7 +9,7 @@ function NavBar() {
 
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <Navbar.Brand as={Link} to="/">
-      <img src={kiwiIcon} alt="kiwiIcon"/>
+      <img style={{marginRight: "10px"}} src={kiwiIcon} alt="kiwiIcon"/>
      Chee Murakami
     </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
