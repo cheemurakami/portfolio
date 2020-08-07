@@ -10,26 +10,25 @@ class About extends React.Component {
       images: imageCards.images,
       image: imageCards.images[0],
     };
+    this.galleryImages = null;
   }
 
   prevImg = () => {
-    console.log("PREV");
-    const newIndex = this.state.image.index - 1;
-    this.setState({
-      image: imageCards.images[newIndex],
-    });
+    this.galleryImages.scrollBy({
+      left: -200,
+      behavior: "smooth"
+    })
   };
 
   nextImg = () => {
-    console.log("NEXT");
-    const newIndex = this.state.image.index + 1;
-    this.setState({
-      image: imageCards.images[newIndex],
-    });
+    this.galleryImages.scrollBy({
+      left: 200,
+      behavior: "smooth"
+    })
   };
 
   render() {
-    const { images, image } = this.state;
+    const { images } = this.state;
     return (
       <React.Fragment>
         <Container>
@@ -53,33 +52,29 @@ class About extends React.Component {
             </Media.Body>
           </Media>
 
-          <div className="mt-5">
-            <button onClick={() => this.prevImg()} disabled={image.index === 0}>
+          <div className="mt-5 gallery">
+            <button onClick={() => this.prevImg()}>
               Prev
             </button>
-            <button
-              onClick={() => this.nextImg()}
-              disabled={image.index === images.length - 1}
-            >
+            <div className="gallery-images" ref={node => {
+            this.galleryImages = node
+          }}>
+              {images.map((image) => {
+                return (
+                  <img
+                    variant="top"
+                    key={image.id}
+                    src={image.image}
+                    style={{ height: "200px", marginRight: "10px" }}
+                    alt={"gallery"}
+                  />
+                );
+              })}
+            </div>
+            <button onClick={() => this.nextImg()}>
               Next
             </button>
           </div>
-          <div className={`cards-slider active-slide-${image.index}`}>
-            <div className='cards-slider-wrapper' style={{
-              'transform': `translateX(-${image.index*(100/images.length)}%`
-            }}>
-              {
-                images.map((image) => {
-                  return(
-                  <Card className="img-card" style={{ width: "18rem" }} key={image.id}>
-                    <Card.Img variant="top" key={image.id} src={image.image} />
-                  </Card>
-                  )
-                })
-              }
-            </div>
-          </div>
-
         </Container>
       </React.Fragment>
     );
