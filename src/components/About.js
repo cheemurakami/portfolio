@@ -1,13 +1,6 @@
 import React from "react";
-import {
-  Container,
-  Media,
-  Card,
-  ListGroup,
-  ListGroupItem,
-} from "react-bootstrap";
+import { Container, Media, Card } from "react-bootstrap";
 import cheeLogo from "../images/cheeLogo.jpg";
-import crossStitch from "../images/crossstitch.jpg";
 import imageCards from "../cards/imageCards";
 
 class About extends React.Component {
@@ -42,15 +35,15 @@ class About extends React.Component {
         <Container>
           <Media className="mt-5">
             <img
-              width={300}
-              height={300}
+              width={150}
+              height={150}
               className="align-self-start mr-3"
               src={cheeLogo}
               alt="Generic placeholder"
             />
             <Media.Body>
-              <h1>Media Heading</h1>
-              <p>
+              <h4>Media Heading</h4>
+              <p className="pullLeft">
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
                 scelerisque ante sollicitudin commodo. Cras purus odio,
                 vestibulum in vulputate at, tempus viverra turpis. Fusce
@@ -70,15 +63,22 @@ class About extends React.Component {
             >
               Next
             </button>
+          </div>
+          <div className={`cards-slider active-slide-${image.index}`}>
+            <div className='cards-slider-wrapper' style={{
+              'transform': `translateX(-${image.index*(100/images.length)}%`
+            }}>
+              {
+                images.map((image) => {
+                  return(
+                  <Card className="img-card" style={{ width: "18rem" }} key={image.id}>
+                    <Card.Img variant="top" key={image.id} src={image.image} />
+                  </Card>
+                  )
+                })
+              }
             </div>
-
-            
-
-                
-                  <Card className="mt-5" style={{ width: "18rem" }} >
-                <Card.Img variant="top" src={this.state.image.image}  />
-            </Card>
-             
+          </div>
 
         </Container>
       </React.Fragment>
