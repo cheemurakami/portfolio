@@ -18,9 +18,9 @@ function NavBar() {
       <Nav.Link as={Link} to="/about">About</Nav.Link>
       <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
       <NavDropdown title="Projects" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#">Gurumi the Florist</NavDropdown.Item>
-        <NavDropdown.Item href="#">Urban Tails Shelter</NavDropdown.Item>
-        <NavDropdown.Item href="#">Record Collector</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/projects">Gurumi the Florist</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/projects">Urban Tails Shelter</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/projects">Record Collector</NavDropdown.Item>
         {/* <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
       </NavDropdown>
