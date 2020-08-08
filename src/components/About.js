@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Media, Card } from "react-bootstrap";
+import { Container, Media } from "react-bootstrap";
 import cheeLogo from "../images/cheeLogo.jpg";
 import imageCards from "../cards/imageCards";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

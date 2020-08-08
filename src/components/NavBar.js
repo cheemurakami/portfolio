@@ -16,7 +16,7 @@ function NavBar() {
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
       <Nav.Link as={Link} to="/about">About</Nav.Link>
-      <Nav.Link href="#">Skills</Nav.Link>
+      <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
       <NavDropdown title="Projects" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#">Gurumi the Florist</NavDropdown.Item>
         <NavDropdown.Item href="#">Urban Tails Shelter</NavDropdown.Item>

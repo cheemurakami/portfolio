@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"; 
 import NavBar from './NavBar'
+import Skills from './Skills'
 import About from './About'
-// import Skills from './Skills'
 // import Projects from './Projects'
 // import Contact from './Contact'
 
@@ -12,13 +12,13 @@ function App() {
     <Router>
       <NavBar />
       <Switch>
+        <Route path="/skills">
+          <Skills />
+        </Route>
         <Route path="/about">
           <About />
         </Route>
-        {/* <Route path="/skills">
-          <Skills />
-        </Route>
-        <Route path="/projects">
+        {/* <Route path="/projects">
           <Projects />
         </Route>
         <Route path="/contact">
