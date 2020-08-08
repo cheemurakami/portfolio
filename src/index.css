@@ -25,3 +25,16 @@ code {
    justify-content: space-between;
    overflow-x: scroll;
  }
+ .invisible-btn{
+   border: none;
+   background-color: inherit;
+   color: #d8f3dc;
+ }
+ .invisible-btn:focus{
+  border: none;
+  outline: none;
+}
+.invisible-btn:active{
+  color: #95d5b2;
+}
+

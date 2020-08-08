@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Media, Card } from "react-bootstrap";
 import cheeLogo from "../images/cheeLogo.jpg";
 import imageCards from "../cards/imageCards";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 class About extends React.Component {
   constructor(props) {
@@ -53,8 +55,10 @@ class About extends React.Component {
           </Media>
 
           <div className="mt-5 gallery">
-            <button onClick={() => this.prevImg()}>
-              Prev
+
+          
+            <button className="invisible-btn" onClick={() => this.prevImg()}>
+              <FontAwesomeIcon icon={faAngleLeft} size="3x"/>
             </button>
             <div className="gallery-images" ref={node => {
             this.galleryImages = node
@@ -71,8 +75,8 @@ class About extends React.Component {
                 );
               })}
             </div>
-            <button onClick={() => this.nextImg()}>
-              Next
+            <button className="invisible-btn" onClick={() => this.nextImg()}>
+             <FontAwesomeIcon icon={faAngleRight} size="3x"/>
             </button>
           </div>
         </Container>
