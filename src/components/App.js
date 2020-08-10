@@ -2,11 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"; 
 import NavBar from './NavBar'
 import Skills from './Skills'
-import About from './About'
+import Home from './Home'
 import Projects from './Projects'
+import Hobbies from './Hobbies'
 // import Projects from './Projects'
 // import Contact from './Contact'
-
 
 function App() {
   return (
@@ -16,14 +16,14 @@ function App() {
         <Route path="/skills">
           <Skills />
         </Route>
-        <Route path="/about">
-          <About />
+        <Route path="/myhobbies">
+          <Hobbies />
         </Route>
         <Route path="/projects">
           <Projects />
         </Route>
         <Route path="/">
-          <Skills />
+          <Home />
         </Route>
         {/* <Route path="/contact">
           <Contact />

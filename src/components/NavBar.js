@@ -15,7 +15,7 @@ function NavBar() {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link as={Link} to="/about">About</Nav.Link>
+      <Nav.Link as={Link} to="/home">Home</Nav.Link>
       <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
       <NavDropdown title="Projects" id="collasible-nav-dropdown">
         <NavDropdown.Item as={Link} to="/projects">Gurumi the Florist</NavDropdown.Item>
@@ -27,8 +27,8 @@ function NavBar() {
     </Nav>
     <Nav>
       <Nav.Link href="#">Contact</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Others
+      <Nav.Link as={Link} to="/myhobbies">
+        My Hobbies
       </Nav.Link>
     </Nav>
   </Navbar.Collapse>

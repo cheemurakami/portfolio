@@ -5,7 +5,7 @@ import imageCards from "../cards/imageCards";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
-class About extends React.Component {
+class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -54,34 +54,10 @@ class About extends React.Component {
             </Media.Body>
           </Media>
 
-          <div className="mt-5 gallery">
-
           
-            <button className="invisible-btn" onClick={() => this.prevImg()}>
-              <FontAwesomeIcon icon={faAngleLeft} size="3x"/>
-            </button>
-            <div className="gallery-images" ref={node => {
-            this.galleryImages = node
-          }}>
-              {images.map((image) => {
-                return (
-                  <img
-                    variant="top"
-                    key={image.id}
-                    src={image.image}
-                    style={{ height: "200px", marginRight: "10px" }}
-                    alt={"gallery"}
-                  />
-                );
-              })}
-            </div>
-            <button className="invisible-btn" onClick={() => this.nextImg()}>
-             <FontAwesomeIcon icon={faAngleRight} size="3x"/>
-            </button>
-          </div>
         </Container>
       </React.Fragment>
     );
   }
 }
-export default About;
+export default Home;
