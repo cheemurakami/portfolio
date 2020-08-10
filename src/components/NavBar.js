@@ -28,7 +28,7 @@ function NavBar() {
     <Nav>
       <Nav.Link href="#">Contact</Nav.Link>
       <Nav.Link eventKey={2} href="#memes">
-        Dank memes
+        Others
       </Nav.Link>
     </Nav>
   </Navbar.Collapse>
