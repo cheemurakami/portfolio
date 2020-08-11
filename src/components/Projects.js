@@ -30,18 +30,24 @@ function Projects() {
                 }}
               />
             </div>
-            </Col>
+          </Col>
 
-            <Col xs={12} md={8} className="mt-3">
+          <Col xs={12} md={8} className="mt-3">
             <div>
-              <h4>Gurumi the Florist</h4>
-              <p>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin commodo. Cras purus odio,
-                vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                congue felis in faucibus.
-              </p>
+              <a
+                href="https://gurumi-the-florist.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Gurumi the Florist</h4>
+                <p>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                  scelerisque ante sollicitudin commodo. Cras purus odio,
+                  vestibulum in vulputate at, tempus viverra turpis. Fusce
+                  condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                  congue felis in faucibus.
+                </p>
+              </a>
             </div>
           </Col>
         </Row>
@@ -73,14 +79,20 @@ function Projects() {
           </Col>
           <Col xs={12} md={8} className="mt-3">
             <div>
-              <h4>Record Collector</h4>
-              <p>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin commodo. Cras purus odio,
-                vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                congue felis in faucibus.
-              </p>
+              <a
+                href="https://record-collector-epiapp.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Record Collector</h4>
+                <p>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                  scelerisque ante sollicitudin commodo. Cras purus odio,
+                  vestibulum in vulputate at, tempus viverra turpis. Fusce
+                  condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                  congue felis in faucibus.
+                </p>
+              </a>
             </div>
           </Col>
         </Row>
@@ -112,14 +124,20 @@ function Projects() {
           </Col>
           <Col xs={12} md={8} className="mt-3">
             <div>
-              <h4>Urban Tails Shelter</h4>
-              <p>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin commodo. Cras purus odio,
-                vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                congue felis in faucibus.
-              </p>
+              <a
+                href="https://urban-tails-shelter.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h4>Urban Tails Shelter</h4>
+                <p>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                  scelerisque ante sollicitudin commodo. Cras purus odio,
+                  vestibulum in vulputate at, tempus viverra turpis. Fusce
+                  condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                  congue felis in faucibus.
+                </p>
+              </a>
             </div>
           </Col>
         </Row>
