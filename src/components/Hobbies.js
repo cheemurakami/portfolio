@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import imageCards from "../cards/imageCards";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
-import hobby from "../images/intern.png";
-import keyboard from "../images/keyboard.jpeg";
+import keyboard from "../images/keyboard.jpg";
 import crosstitch3 from "../images/crosstitch3.JPG";
 import doily3 from "../images/doily3.JPG";
 
@@ -37,7 +36,8 @@ class Hobbies extends React.Component {
     return (
       <React.Fragment>
         <Container>
-          
+
+          <h3>My Hobbies</h3>
         <Row className="mt-3 mb-3">
           <Col md={4}>
             <h4>Keyboard</h4>

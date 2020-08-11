@@ -3,7 +3,7 @@ import crossStitch from "../images/crossstitch.jpg";
 import crossStitch2 from "../images/crossstitch2.JPG";
 import doily1 from "../images/doily1.jpg";
 import doily2 from "../images/doily2.jpg";
-import keyboard from "../images/keyboard.jpg";
+import keyboard from "../images/keyboard2.JPG";
 import kiwi from "../images/kiwi.jpg";
 
 const imageCards = {
