@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import cheeLogo from "../images/cheeLogo.jpg";
 import intern from "../images/intern.png";
+
 import imageCards from "../cards/imageCards";
 
 class Home extends React.Component {
