@@ -33,11 +33,7 @@ class Home extends React.Component {
             <Col xs={12} md={9} className="mt-3">
               <h4>Media Heading</h4>
               <p className="pullLeft">
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin commodo. Cras purus odio,
-                vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                congue felis in faucibus.
+              Hi there! I am Chee. I am a junior web developer based in Portland, Oregon. I enjoy creating apps with React. Before my coding bootcamp, I worked as a sales representative at an asian foods distributor, managing accounts for restaurants and markets. Before that I studied English literature in Japan. When I am not coding, I am either playing keyboard, doing cross stitch, or crocheting with my cat Kiwi!
               </p>
             </Col>
           </Row>
@@ -55,11 +51,7 @@ class Home extends React.Component {
             <Col xs={12} md={9} className="mt-3">
               <h4>Epicodus</h4>
               <p className="pullLeft">
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin commodo. Cras purus odio,
-                vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                congue felis in faucibus.
+              During my schooling at Epicodus I have created dozens of apps using JavaScript, Ruby on Rails, React with Redux, and others. Learned best practices such as TDD, BDD, and along with over 800 hours of programing work. Recently I built a React and Rails flower shop app with authentication, search/ filters, and CRUD functionality.  See my projects.
               </p>
             </Col>
             
@@ -79,11 +71,7 @@ class Home extends React.Component {
             <Col xs={12} md={9} className="mt-3">
               <h4>Internship</h4>
               <p className="pullLeft">
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin commodo. Cras purus odio,
-                vestibulum in vulputate at, tempus viverra turpis. Fusce
-                condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                congue felis in faucibus.
+              I am currently doing an internship at a company called Flight, building an app in Angular, TypeScript and Firebase. I have really enjoyed learning and building the frontend and would like to do something similar.
               </p>
             </Col>
           </Row>
