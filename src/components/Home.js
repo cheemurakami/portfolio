@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import cheeLogo from "../images/cheeLogo.jpg";
 import intern from "../images/intern.png";
-
 import imageCards from "../cards/imageCards";
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   constructor(props) {
@@ -51,7 +51,7 @@ class Home extends React.Component {
             <Col xs={12} md={9} className="mt-3">
               <h4>Epicodus</h4>
               <p className="pullLeft">
-              During my schooling at Epicodus I have created dozens of apps using JavaScript, Ruby on Rails, React with Redux, and others. Learned best practices such as TDD, BDD, and along with over 800 hours of programing work. Recently I built a React and Rails flower shop app with authentication, search/ filters, and CRUD functionality.  See my projects.
+              During my schooling at <a href="https://www.epicodus.com/" >Epicodus</a> I have created dozens of apps using JavaScript, Ruby on Rails, React with Redux, and others. Learned best practices such as TDD, BDD, and along with over 800 hours of programing work. Recently I built a React and Rails flower shop app with authentication, search/ filters, and CRUD functionality. <Link as={Link} to="/projects">See my projects.</Link>
               </p>
             </Col>
             
@@ -71,7 +71,7 @@ class Home extends React.Component {
             <Col xs={12} md={9} className="mt-3">
               <h4>Internship</h4>
               <p className="pullLeft">
-              I am currently doing an internship at a company called Flight, building an app in Angular, TypeScript and Firebase. I have really enjoyed learning and building the frontend and would like to do something similar.
+              I am currently doing an internship at a company called <a href="https://flight.run/">Flight</a>, building an app in Angular, TypeScript and Firebase. I have really enjoyed learning and building the frontend and would like to do something similar.
               </p>
             </Col>
           </Row>
