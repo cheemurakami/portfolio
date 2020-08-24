@@ -26,7 +26,7 @@ function NavBar() {
       </NavDropdown>
     </Nav>
     <Nav>
-      <Nav.Link href="#">Contact</Nav.Link>
+      <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
       <Nav.Link as={Link} to="/myhobbies">
         My Hobbies
       </Nav.Link>

@@ -5,8 +5,7 @@ import Skills from './Skills'
 import Home from './Home'
 import Projects from './Projects'
 import Hobbies from './Hobbies'
-// import Projects from './Projects'
-// import Contact from './Contact'
+import Contact from './Contact'
 
 function App() {
   return (
@@ -22,12 +21,12 @@ function App() {
         <Route path="/projects">
           <Projects />
         </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
         <Route path="/">
           <Home />
         </Route>
-        {/* <Route path="/contact">
-          <Contact />
-        </Route> */}
       </Switch>
     </Router>
   );

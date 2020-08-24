@@ -43,8 +43,15 @@ a {
 }
 a:hover 
 {
-     color: #d68c45; 
+     color: #5e6472; 
      text-decoration:none; 
      cursor:pointer;  
+}
+.contact{
+  text-align: center;
+}
+.icon{
+  margin-right: 12px;
+  margin-left: 12px;
 }
 

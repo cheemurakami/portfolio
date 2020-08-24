@@ -31,7 +31,8 @@ class Home extends React.Component {
             </Col>
 
             <Col xs={12} md={9} className="mt-3">
-              <h4>Media Heading</h4>
+              <h4>Hi I'm Chee
+              ヽ(*・ω・)ﾉ</h4>
               <p className="pullLeft">
               Hi there! I am Chee. I am a junior web developer based in Portland, Oregon. I enjoy creating apps with React. Before my coding bootcamp, I worked as a sales representative at an asian foods distributor, managing accounts for restaurants and markets. Before that I studied English literature in Japan. When I am not coding, I am either playing keyboard, doing cross stitch, or crocheting with my cat Kiwi!
               </p>

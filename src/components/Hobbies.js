@@ -70,7 +70,7 @@ class Hobbies extends React.Component {
                 src={doily3}
                 alt="doily3"
               />
-            <p className="mt-3">Crochet is my another hobby to keep my spare time busy. Since I like flowers and candles, I make doilies for those placemats! Sometimes I make hair accessories too. Also my cat loves bothering me with my yarn and thread while I'm crocheting!</p>
+            <p className="mt-3">Crochet is my another hobby to keep my spare time busy. Since I like flowers and candles, I make doilies for those placemats! Sometimes I make hair accessories too. Also my cat Kiwi loves bothering me with my yarn and thread while I'm crocheting!</p>
           </Col>
         </Row>
           <div className="mt-5 gallery">
