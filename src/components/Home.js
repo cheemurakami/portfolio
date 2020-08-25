@@ -19,11 +19,11 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         <Container>
-          <Row className="mt-3 mb-3">
+          <Row className="mt-5 mb-5">
             <Col xs={12} md={3} className="mt-3 mb-3">
               <img
-                width={150}
-                height={150}
+                width={175}
+                height={175}
                 className="align-self-start mr-3"
                 src={cheeOmma}
                 alt="cheeOmma"
@@ -42,8 +42,8 @@ class Home extends React.Component {
           <Row className="mt-3 mb-3">
           <Col xs={12} md={3} className="mt-3 mb-3">
               <img
-                width={150}
-                height={150}
+                width={175}
+                height={175}
                 className="align-self-start"
                 src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/1880/s300/epicodus-ico.png"
                 alt="epiLogo"
@@ -60,8 +60,8 @@ class Home extends React.Component {
           <Row className="mt-3 mb-3">
             <Col xs={12} md={3} className="mt-3 mb-3">
               <img
-                width={150}
-                height={150}
+                width={175}
+                height={175}
                 className="align-self-start mr-3"
                 src={intern}
                 alt="internLogo"
