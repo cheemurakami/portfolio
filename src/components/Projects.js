@@ -5,8 +5,11 @@ function Projects() {
   return (
     <React.Fragment>
       <Container>
+        <h4 className="mt-5">My Projects</h4>
+        <hr></hr>
+        <br></br>
         <Row className="mt-3 mb-3">
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} className="mt-3 mb-3">
             <div
               style={{
                 position: "relative",
@@ -32,7 +35,7 @@ function Projects() {
             </div>
           </Col>
 
-          <Col xs={12} md={8} className="mt-3">
+          <Col xs={12} md={8} className="mt-3 mb-3">
             <div>
               <a
                 href="https://gurumi-the-florist.herokuapp.com/"
@@ -41,18 +44,16 @@ function Projects() {
               >
                 <h4>Gurumi the Florist</h4>
                 <p>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin commodo. Cras purus odio,
-                  vestibulum in vulputate at, tempus viverra turpis. Fusce
-                  condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                  congue felis in faucibus.
+                  This is a CRUD app for managing flower products. Made with
+                  React and Redux for frontend and Rails for backend using
+                  Postgres database.
                 </p>
               </a>
             </div>
           </Col>
         </Row>
         <Row className="mt-3 mb-3">
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} className="mt-3 mb-3">
             <div
               style={{
                 position: "relative",
@@ -77,7 +78,7 @@ function Projects() {
               />
             </div>
           </Col>
-          <Col xs={12} md={8} className="mt-3">
+          <Col xs={12} md={8} className="mt-3 mb-3">
             <div>
               <a
                 href="https://record-collector-epiapp.herokuapp.com/"
@@ -86,18 +87,17 @@ function Projects() {
               >
                 <h4>Record Collector</h4>
                 <p>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin commodo. Cras purus odio,
-                  vestibulum in vulputate at, tempus viverra turpis. Fusce
-                  condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                  congue felis in faucibus.
+                  This is a digital record collection catalog that helps a user
+                  keep track of records in their collection and organize it by
+                  specific parameters. Made with Ruby on Rails and Postgres
+                  database.
                 </p>
               </a>
             </div>
           </Col>
         </Row>
         <Row className="mt-3 mb-3">
-          <Col xs={12} md={4}>
+          <Col xs={12} md={4} className="mt-3 mb-3">
             <div
               style={{
                 position: "relative",
@@ -122,7 +122,7 @@ function Projects() {
               />
             </div>
           </Col>
-          <Col xs={12} md={8} className="mt-3">
+          <Col xs={12} md={8} className="mt-3 mb-3">
             <div>
               <a
                 href="https://urban-tails-shelter.herokuapp.com/"
@@ -131,11 +131,9 @@ function Projects() {
               >
                 <h4>Urban Tails Shelter</h4>
                 <p>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                  scelerisque ante sollicitudin commodo. Cras purus odio,
-                  vestibulum in vulputate at, tempus viverra turpis. Fusce
-                  condimentum nunc ac nisi vulputate fringilla. Donec lacinia
-                  congue felis in faucibus.
+                  This is an animal shelter app that helps organize cat data.
+                  This app uses React, Redux, and a custom built API made with
+                  Rails and Postgres
                 </p>
               </a>
             </div>

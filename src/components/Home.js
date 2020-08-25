@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import cheeLogo from "../images/cheeLogo.jpg";
+import cheeOmma from "../images/cheeOmma.JPG";
 import intern from "../images/intern.png";
 import imageCards from "../cards/imageCards";
 import { Link } from "react-router-dom";
@@ -20,17 +20,17 @@ class Home extends React.Component {
       <React.Fragment>
         <Container>
           <Row className="mt-3 mb-3">
-            <Col xs={12} md={3} className="mt-3">
+            <Col xs={12} md={3} className="mt-3 mb-3">
               <img
                 width={150}
                 height={150}
                 className="align-self-start mr-3"
-                src={cheeLogo}
-                alt="cheeLogo"
+                src={cheeOmma}
+                alt="cheeOmma"
               />
             </Col>
 
-            <Col xs={12} md={9} className="mt-3">
+            <Col xs={12} md={9} className="mt-3 mb-3">
               <h4>Hi I'm Chee
               ヽ(*・ω・)ﾉ</h4>
               <p className="pullLeft">
@@ -40,7 +40,7 @@ class Home extends React.Component {
           </Row>
 
           <Row className="mt-3 mb-3">
-          <Col xs={12} md={3} className="mt-3 ">
+          <Col xs={12} md={3} className="mt-3 mb-3">
               <img
                 width={150}
                 height={150}
@@ -49,7 +49,7 @@ class Home extends React.Component {
                 alt="epiLogo"
               />
             </Col>
-            <Col xs={12} md={9} className="mt-3">
+            <Col xs={12} md={9} className="mt-3 mb-3">
               <h4>Epicodus</h4>
               <p className="pullLeft">
               During my schooling at <a href="https://www.epicodus.com/" >Epicodus</a> I have created dozens of apps using JavaScript, Ruby on Rails, React with Redux, and others. Learned best practices such as TDD, BDD, and along with over 800 hours of programing work. Recently I built a React and Rails flower shop app with authentication, search/ filters, and CRUD functionality. <Link as={Link} to="/projects">See my projects.</Link>
@@ -58,7 +58,7 @@ class Home extends React.Component {
             
           </Row>
           <Row className="mt-3 mb-3">
-            <Col xs={12} md={3} className="mt-3">
+            <Col xs={12} md={3} className="mt-3 mb-3">
               <img
                 width={150}
                 height={150}
@@ -69,7 +69,7 @@ class Home extends React.Component {
               />
             </Col>
 
-            <Col xs={12} md={9} className="mt-3">
+            <Col xs={12} md={9} className="mt-3 mb-3">
               <h4>Internship</h4>
               <p className="pullLeft">
               I am currently doing an internship at a company called <a href="https://flight.run/">Flight</a>, building an app in Angular, TypeScript and Firebase. I have really enjoyed learning and building the frontend and would like to do something similar.
