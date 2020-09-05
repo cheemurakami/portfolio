@@ -39,7 +39,7 @@ class Home extends React.Component {
             </Col>
           </Row>
 
-          <Row className="mt-3 mb-3">
+          <Row className="mt-5 mb-5">
           <Col xs={12} md={3} className="mt-3 mb-3">
               <img
                 width={175}
@@ -57,7 +57,7 @@ class Home extends React.Component {
             </Col>
             
           </Row>
-          <Row className="mt-3 mb-3">
+          <Row className="mt-5 mb-5">
             <Col xs={12} md={3} className="mt-3 mb-3">
               <img
                 width={175}
