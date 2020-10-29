@@ -23,11 +23,6 @@ function NavBar() {
             <Nav.Link as={Link} to="/projects">
               Projects
             </Nav.Link>
-            {/* <NavDropdown title="Projects" id="collasible-nav-dropdown">
-        <NavDropdown.Item as={Link} to="/projects">Gurumi the Florist</NavDropdown.Item>
-        <NavDropdown.Item as={Link} to="/projects">Urban Tails Shelter</NavDropdown.Item>
-        <NavDropdown.Item as={Link} to="/projects">Record Collector</NavDropdown.Item>
-       </NavDropdown> */}
             <Nav.Link as={Link} to="/myhobbies">
               My Hobbies
             </Nav.Link>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import cheeOmma from "../images/cheeOmma.JPG";
-import intern from "../images/intern.png";
 import imageCards from "../cards/imageCards";
 import { Link } from "react-router-dom";
 
@@ -63,7 +62,7 @@ class Home extends React.Component {
                 width={175}
                 height={175}
                 className="align-self-start mr-3"
-                src={intern}
+                src="https://wjm.s3.amazonaws.com/maclist/uploads/EyeCue+Lab+LLC_1602893511.png"
                 alt="internLogo"
                 style={{backgroundColor: "white"}}
               />
@@ -72,7 +71,7 @@ class Home extends React.Component {
             <Col xs={12} md={9} className="mt-3 mb-3">
               <h4>Internship</h4>
               <p className="pullLeft">
-              I am currently doing an internship at a company called <a href="https://flight.run/">Flight</a>, building an app in Angular, TypeScript and Firebase. I have really enjoyed learning and building the frontend and would like to do something similar.
+              I am currently doing an internship at a company called <a href="https://www.eyecuelab.com/" target="_blank" rel="noopener noreferrer">EyeCue Lab</a>, building an habit tracker app using React Native. I have really enjoyed learning and building the frontend and would like to do something similar.
               </p>
             </Col>
           </Row>

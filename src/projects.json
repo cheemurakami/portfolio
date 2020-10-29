@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "title": "Gurumi the Florist",
+      "description": "This is a CRUD app for managing flower products. Made with React and Redux for frontend and Rails for backend using Postgres database.",
+      "links": {
+        "loom": "https://www.loom.com/embed/572da294d5ae42879166a0d696f5f595",
+        "repo": "https://github.com/cheemurakami/gurumi_the_florist",
+        "website": "https://gurumi-the-florist.herokuapp.com/"
+      }
+    },
+    {
+      "title": "Record Collector",
+      "description": "This is a digital record collection catalog that helps a user keep track of records in their collection and organize it by specific parameters. Made with Ruby on Rails and Postgres database.",
+      "links": {
+        "loom": "https://www.loom.com/embed/29d68aa1af614889adbef37e5daeb437",
+        "repo": "https://github.com/cheemurakami/record_collector",
+        "website": "https://record-collector-epiapp.herokuapp.com/"
+      }
+    },
+    {
+      "title": "Urban Tails Shelter",
+      "description": "This is an animal shelter app that helps organize cat data. This app uses React, Redux, and a custom built API made with Rails and Postgres",
+      "links": {
+        "loom": "https://www.loom.com/embed/4eade8609ad24cc5a107ca62470d98c7",
+        "repo": "https://github.com/cheemurakami/urban_tails_shelter",
+        "website": "https://urban-tails-shelter.herokuapp.com/"
+      }
+    }
+  ]
+}
