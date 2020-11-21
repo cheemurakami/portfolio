@@ -5,11 +5,11 @@ import { MDBContainer } from "mdbreact";
 class Skills extends React.Component {
   state = {
     dataHorizontal: {
-      labels: ["JavaScript", "Ruby", "React", "Redux", "Angular", "TypeScript"],
+      labels: ["JavaScript", "Ruby on Rails", "React", "Redux", "React Native", "TypeScript", "Angular"],
       datasets: [
         {
           label: "Confortableness",
-          data: [6.5, 5, 6, 6, 5, 5, 10, 0, 6.5],
+          data: [9, 7, 9, 9, 7, 6, 5, 0, 10, 6.5],
           fill: false,
           backgroundColor: [
             "rgba(255, 99, 132, 0.2)",
