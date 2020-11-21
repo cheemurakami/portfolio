@@ -9,7 +9,7 @@ class Skills extends React.Component {
       datasets: [
         {
           label: "Confortableness",
-          data: [9, 7, 9, 9, 7, 6, 5, 0, 10, 6.5],
+          data: [8, 6, 8, 8, 6, 5, 5, 0, 10, 6.5],
           fill: false,
           backgroundColor: [
             "rgba(255, 99, 132, 0.2)",

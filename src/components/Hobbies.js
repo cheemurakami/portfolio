@@ -50,10 +50,9 @@ class Hobbies extends React.Component {
                 alt="keyboard"
               />
               <p className="mt-3">
-                I started playing keyboard when I was 4. Since then I played and
-                listened to any kind of music. Recently I play 2000s punk/ rocks
-                most of the time. I sometimes compose my own music too. I also
-                love going to concerts to see my favorite bands!( ﾉ^ω^)ﾉ
+                Keyboard is an important part of my life. Recently I play 2000s
+                punk/ rocks. I compose my own music too.
+                I also love going to concerts to see my favorite bands!( ﾉ^ω^)ﾉ
               </p>
             </Col>
             <Col md={4} className="hobbyCard">
@@ -66,10 +65,8 @@ class Hobbies extends React.Component {
                 alt="crosstitch3"
               />
               <p className="mt-3">
-                Crossstitch is a one of creative hobbies of mine because I can
-                design my own patterns with words easily! It doesn't require you
-                to know the patterns of stitches. It does take time to finish,
-                but it is nice to keep working on a project!
+                Crossstitch is a one of creative hobbies of mine because I love
+                designing my own patterns with words!
               </p>
             </Col>
             <Col md={4} className="hobbyCard">
@@ -82,10 +79,8 @@ class Hobbies extends React.Component {
                 alt="doily3"
               />
               <p className="mt-3">
-                Crochet is my another hobby to keep my spare time busy. Since I
-                like flowers and candles, I make doilies for those placemats!
-                Sometimes I make hair accessories too. Also my cat Kiwi loves
-                bothering me with my yarn and thread while I'm crocheting!
+                Crochet is my another hobby to keep my spare time busy. Also my cat Kiwi loves
+                bothering me with my yarn and thread!
               </p>
             </Col>
           </Row>
