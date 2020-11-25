@@ -1,0 +1,22 @@
+{
+  "hobbies": [
+    {
+      "title": "Keyboard",
+      "description": "Keyboard is an important part of my life. Recently I play 2000s punk/ rocks. I compose my own music too. I also love going to concerts to see my favorite bands!( ﾉ^ω^)ﾉ",
+      "image_title": "keyboard",
+      "image_url": ""
+    },
+    {
+      "title": "Cross stitc",
+      "description": "Crossstitch is a one of creative hobbies of mine because I love designing my own patterns with words!",
+      "image_title": "crossstitch3",
+      "image_url": ""
+    },
+    {
+      "title": "Crochet",
+      "description": "Crochet is my another hobby to keep my spare time busy. Also my cat Kiwi loves bothering me with my yarn and thread!",
+      "image_title": "doily3",
+      "image_url": ""
+    }
+  ]
+}

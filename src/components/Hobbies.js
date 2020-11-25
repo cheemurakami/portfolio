@@ -6,6 +6,7 @@ import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import keyboard from "../images/keyboard.jpg";
 import crosstitch3 from "../images/crosstitch3.JPG";
 import doily3 from "../images/doily3.JPG";
+import hobbyData from "../hobbies.json";
 
 class Hobbies extends React.Component {
   constructor(props) {
@@ -15,6 +16,8 @@ class Hobbies extends React.Component {
       image: imageCards.images[0],
     };
     this.galleryImages = null;
+    this.hobbies = hobbyData.hobbies;
+    this.images = [keyboard, crosstitch3, doily3];
   }
 
   prevImg = () => {
@@ -40,49 +43,21 @@ class Hobbies extends React.Component {
           <hr></hr>
           <br></br>
           <Row className="mt-4 mb-4">
-            <Col md={4} className="hobbyCard">
-              <h5>Keyboard</h5>
-              <img
-                width={150}
-                height={150}
-                className="align-self-start mt-3 mb-3"
-                src={keyboard}
-                alt="keyboard"
-              />
-              <p className="mt-3">
-                Keyboard is an important part of my life. Recently I play 2000s
-                punk/ rocks. I compose my own music too.
-                I also love going to concerts to see my favorite bands!( ﾉ^ω^)ﾉ
-              </p>
-            </Col>
-            <Col md={4} className="hobbyCard">
-              <h5>Cross stitch</h5>
-              <img
-                width={150}
-                height={150}
-                className="align-self-start mt-3 mb-3"
-                src={crosstitch3}
-                alt="crosstitch3"
-              />
-              <p className="mt-3">
-                Crossstitch is a one of creative hobbies of mine because I love
-                designing my own patterns with words!
-              </p>
-            </Col>
-            <Col md={4} className="hobbyCard">
-              <h5>Crochet</h5>
-              <img
-                width={150}
-                height={150}
-                className="align-self-start mt-3 mb-3"
-                src={doily3}
-                alt="doily3"
-              />
-              <p className="mt-3">
-                Crochet is my another hobby to keep my spare time busy. Also my cat Kiwi loves
-                bothering me with my yarn and thread!
-              </p>
-            </Col>
+            {this.hobbies.map((hobby, index) => {
+              return (
+                <Col md={4} className="hobbyCard" key={index}>
+                  <h5>{hobby.title}</h5>
+                  <img
+                    width={150}
+                    height={150}
+                    className="align-self-start mt-3 mb-3"
+                    src={this.images[index]}
+                    alt={hobby.image_title}
+                  />
+                  <p className="mt-3">{hobby.description}</p>
+                </Col>
+              );
+            })}
           </Row>
           <div className="mt-5 mb-5 gallery">
             <button className="invisible-btn" onClick={() => this.prevImg()}>
