@@ -29,12 +29,13 @@ class Home extends React.Component {
               />
             </Col>
 
-            <Col xs={12} md={9} className="mt-3 mb-3">
+            <Col xs={12} md={9} className="mt-3 mb-3 pl-4">
               <h4>Hi I'm Chee ヽ(*・ω・)ﾉ</h4>
               <p className="pullLeft">
                 Hi there! I'm Chee. I'm a junior web developer based in
-                Portland, Oregon. I enjoy creating apps with React and I'm eager to learn more! When I am not coding, I am either playing keyboard, doing cross
-                stitch, or crocheting with my cat Kiwi! 
+                Portland, Oregon. I enjoy creating apps with React and I'm eager
+                to learn more! When I am not coding, I am either playing
+                keyboard, doing cross stitch, or crocheting with my cat Kiwi!
               </p>
               <Badge pill variant="secondary">
                 coding
@@ -64,14 +65,16 @@ class Home extends React.Component {
                 alt="epiLogo"
               />
             </Col>
-            <Col xs={12} md={9} className="mt-3 mb-3">
-              <h4>Epicodus</h4>
+            <Col xs={12} md={9} className="mt-3 mb-3 pl-4">
+              <h4>Epicodus Coding Bootcamp</h4>
+              <h5>MAR 2020 - SEP 2020</h5>
               <p className="pullLeft">
                 During my schooling at{" "}
                 <a href="https://www.epicodus.com/">Epicodus</a> I have created
                 dozens of apps using JavaScript, Ruby on Rails, React with
                 Redux, and others. Learned best practices such as TDD, BDD, and
-                along with over 800 hours of programing work. Check my personal projects{" "}
+                along with over 1000 hours of programing work. Check my personal
+                projects{" "}
                 <Link as={Link} to="/projects">
                   here!
                 </Link>
@@ -81,6 +84,9 @@ class Home extends React.Component {
               </Badge>{" "}
               <Badge pill variant="secondary">
                 Redux
+              </Badge>{" "}
+              <Badge pill variant="secondary">
+                NPM
               </Badge>{" "}
               <Badge pill variant="secondary">
                 Firebase
@@ -108,10 +114,11 @@ class Home extends React.Component {
               />
             </Col>
 
-            <Col xs={12} md={9} className="mt-3 mb-3">
-              <h4>Internship</h4>
+            <Col xs={12} md={9} className="mt-3 mb-3 pl-4">
+              <h4>Software Engineer Internship</h4>
+              <h5>OCT 2020 - DEC 2020</h5>
               <p className="pullLeft">
-                I am currently doing an internship at a company called{" "}
+                I have recently finished my internship at a company called{" "}
                 <a
                   href="https://www.eyecuelab.com/"
                   target="_blank"
@@ -119,9 +126,9 @@ class Home extends React.Component {
                 >
                   EyeCue Lab
                 </a>
-                , building an habit tracker app using React Native. I have
-                really enjoyed learning and building the frontend and would like
-                to do something similar.
+                , building a habit tracker/ activity suggestion app using React
+                Native. I have really enjoyed learning mobile development and
+                working on the frontend and would like to do something similar!
               </p>
               <Badge pill variant="secondary">
                 React Native
@@ -140,6 +147,9 @@ class Home extends React.Component {
               </Badge>{" "}
               <Badge pill variant="secondary">
                 React Native Paper
+              </Badge>{" "}
+              <Badge pill variant="secondary">
+                Spotify API
               </Badge>{" "}
             </Col>
           </Row>

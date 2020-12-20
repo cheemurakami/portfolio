@@ -60,7 +60,7 @@ function Projects() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Website
+                        Play!
                       </a>
                     </Badge>{" "}
                 </div>
