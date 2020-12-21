@@ -26,6 +26,15 @@
         "repo": "https://github.com/cheemurakami/myTypingGame",
         "website": "https://cheemurakami.github.io/myTypingGame/"
       }
+    },
+    {
+      "title": "Sudoku",
+      "description": "Simple sudoku game made with react native and TypeScript.",
+      "links": {
+        "loom": "https://www.loom.com/embed/4eade8609ad24cc5a107ca62470d98c7",
+        "repo": "https://github.com/cheemurakami/react-native-sudoku",
+        "website": "https://cheemurakami.github.io/myTypingGame/"
+      }
     }
   ]
 }
