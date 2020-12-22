@@ -1,16 +1,38 @@
+import { Badge, Col, Container, Image, Row } from "react-bootstrap";
+
 import React from "react";
-import { Row, Col, Container, Badge } from "react-bootstrap";
+import brio1 from "../images/brio1.png";
 import projectData from "../projects.json";
+import sudoku from "../images/sudoku.png";
+import topPage from "../images/topPage.jpeg";
+import typing from "../images/typing.png";
 
 function Projects() {
   const projects = projectData.projects;
+  const images = [topPage, brio1, typing, sudoku];
+
+  const showDemo = (project) => {
+    if (project.links.website) {
+      return (
+        <Badge pill variant="secondary">
+          <a
+            href={project.links.website}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Demo
+          </a>
+        </Badge>
+      );
+    }
+  };
   return (
     <React.Fragment>
       <Container>
         <h4 className="mt-5">My Projects</h4>
         <hr></hr>
         <br></br>
-        {projects.map((project) => {
+        {projects.map((project, index) => {
           return (
             <Row className="mt-3 mb-3" key={project.title}>
               <Col xs={12} md={4} className="mt-3 mb-3">
@@ -21,7 +43,12 @@ function Projects() {
                     height: 0,
                   }}
                 >
-                  <iframe
+                  <Image
+                    src={images[index]}
+                    style={{ width: 200, height: 200 }}
+                    thumbnail
+                  />
+                  {/* <iframe
                     title={project.title}
                     src={project.links.loom}
                     frameBorder={0}
@@ -35,34 +62,24 @@ function Projects() {
                       width: "100%",
                       height: "100%",
                     }}
-                  />
+                  /> */}
                 </div>
               </Col>
 
               <Col xs={12} md={8} className="mt-3 mb-3">
                 <div>
                   <h4>{project.title}</h4>
-                  <p>
-                    {project.description}
-                  </p>
-                    <Badge pill variant="secondary">
-                      <a
-                        href={project.links.repo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Repo
-                      </a>
-                    </Badge>{" "}
-                    <Badge pill variant="secondary">
-                      <a
-                        href={project.links.website}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Play!
-                      </a>
-                    </Badge>{" "}
+                  <p>{project.description}</p>
+                  <Badge pill variant="secondary">
+                    <a
+                      href={project.links.repo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Repo
+                    </a>
+                  </Badge>{" "}
+                  {showDemo(project)}
                 </div>
               </Col>
             </Row>

@@ -13,9 +13,9 @@
       "title": "Brio Mobile",
       "description": "This is a habit tracker/ activity suggestion app made with React Native using Redux and Redux-Saga. It has data visualization using JS libraries, and also integrates Spotify API for OAuth and user details.",
       "links": {
-        "loom": "https://www.loom.com/share/09a85ea0f28746799205fdaad85e6a1d",
+        "loom": "https://www.loom.com/share/cc7da3c67f444a0dab89d878e3a8f848",
         "repo": "https://github.com/cheemurakami/brio-mobile",
-        "website": "https://www.loom.com/share/09a85ea0f28746799205fdaad85e6a1d"
+        "website": "https://www.loom.com/share/cc7da3c67f444a0dab89d878e3a8f848"
       }
     },
     {
@@ -32,8 +32,7 @@
       "description": "Simple sudoku game made with react native and TypeScript.",
       "links": {
         "loom": "https://www.loom.com/embed/4eade8609ad24cc5a107ca62470d98c7",
-        "repo": "https://github.com/cheemurakami/react-native-sudoku",
-        "website": "https://cheemurakami.github.io/myTypingGame/"
+        "repo": "https://github.com/cheemurakami/react-native-sudoku"
       }
     }
   ]
