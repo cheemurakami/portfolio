@@ -1,6 +1,7 @@
-import React from "react";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
+
 import { Link } from "react-router-dom";
+import React from "react";
 import kiwiIcon from "../images/kiwiIcon30.png";
 
 function NavBar() {
@@ -9,7 +10,7 @@ function NavBar() {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand as={Link} to="/">
           <img style={{ marginRight: "10px" }} src={kiwiIcon} alt="kiwiIcon" />
-          Chee Murakami
+          Chisato Murakami Software Engineer
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

@@ -1,8 +1,9 @@
+import { Badge, Col, Container, Row } from "react-bootstrap";
+
+import { Link } from "react-router-dom";
 import React from "react";
-import { Container, Row, Col, Badge } from "react-bootstrap";
 import cheeOmma from "../images/cheeOmma.JPG";
 import imageCards from "../cards/imageCards";
-import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   constructor(props) {
@@ -30,7 +31,7 @@ class Home extends React.Component {
             </Col>
 
             <Col xs={12} md={9} className="mt-3 mb-3 pl-4">
-              <h4>Hi I'm Chee ヽ(*・ω・)ﾉ</h4>
+              <h4>Hi I'm Chisato, please call me Chee ヽ(*・ω・)ﾉ</h4>
               <p className="pullLeft">
                 Hi there! I'm Chee. I'm a junior web developer based in
                 Portland, Oregon. I enjoy creating apps with React and I'm eager
