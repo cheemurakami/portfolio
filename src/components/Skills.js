@@ -1,6 +1,6 @@
-import React from "react";
 import { HorizontalBar } from "react-chartjs-2";
 import { MDBContainer } from "mdbreact";
+import React from "react";
 
 class Skills extends React.Component {
   state = {
@@ -37,7 +37,7 @@ class Skills extends React.Component {
 
   render() {
     return (
-      <MDBContainer>
+      <MDBContainer className="mb-5">
         <h4 className="mt-5">My Skills/Tools</h4>
         <hr></hr>
         <br></br>

@@ -1,28 +1,26 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"; 
-import NavBar from './NavBar'
-import Skills from './Skills'
-import Home from './Home'
-import Projects from './Projects'
-import Hobbies from './Hobbies'
-import Contact from './Contact'
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+
+import Contact from "./Contact";
+import Hobbies from "./Hobbies";
+import Home from "./Home";
+import NavBar from "./NavBar";
+import Projects from "./Projects";
+import React from "react";
+import Skills from "./Skills";
 
 function App() {
   return (
     <Router>
       <NavBar />
       <Switch>
-        <Route path="/skills">
-          <Skills />
-        </Route>
-        <Route path="/myhobbies">
-          <Hobbies />
+        <Route path="/home">
+          <Home />
         </Route>
         <Route path="/projects">
           <Projects />
         </Route>
-        <Route path="/contact">
-          <Contact />
+        <Route path="/aboutme">
+          <Hobbies />
         </Route>
         <Route path="/">
           <Home />

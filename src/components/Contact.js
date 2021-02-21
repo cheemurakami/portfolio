@@ -1,31 +1,33 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Container, Image, Row } from "react-bootstrap";
 import {
   faGithub,
-  faLinkedin,
   faInstagram,
+  faLinkedin,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { Container, Row, Image } from "react-bootstrap";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 import cheeLogo from "../images/cheeLogo.jpg";
 
 function Contact() {
   return (
     <React.Fragment>
       <Container>
-        <h4 className="mt-5">Contact me!</h4>
+        <h4 className="mt-5">Contact</h4>
         <hr></hr>
         <br></br>
         <Row>
           <Image
-            className="logoImage mt-5 mb-5"
+            className="logoImage"
             src={cheeLogo}
             roundedCircle
             width={150}
             height={150}
           />
         </Row>
-
-        <div className="contact">
+        <Row className="text">kiwipom1031[at]gmail.com</Row>
+        <Row className="contact-links">
           <a
             href="https://github.com/cheemurakami"
             target="_blank"
@@ -49,10 +51,19 @@ function Contact() {
           >
             <FontAwesomeIcon className="icon" icon={faInstagram} size="3x" />
           </a>
-        </div>
+
+          <a
+            href="https://twitter.com/kiwipom31"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon className="icon" icon={faTwitter} size="3x" />
+          </a>
+        </Row>
+        <Row className="text">© 2021 by Chisato Murakami. </Row>
       </Container>
     </React.Fragment>
   );
 }
-//<i class="fab fa-linkedin-in"></i>
+
 export default Contact;

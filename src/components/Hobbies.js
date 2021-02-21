@@ -1,12 +1,14 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import imageCards from "../cards/imageCards";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Col, Container, Row } from "react-bootstrap";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import keyboard from "../images/keyboard.jpg";
+
+import Contact from "./Contact";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 import crosstitch3 from "../images/crosstitch3.JPG";
 import doily3 from "../images/doily3.JPG";
 import hobbyData from "../hobbies.json";
+import imageCards from "../cards/imageCards";
+import keyboard from "../images/keyboard.jpg";
 
 class Hobbies extends React.Component {
   constructor(props) {
@@ -39,7 +41,7 @@ class Hobbies extends React.Component {
     return (
       <React.Fragment>
         <Container>
-          <h4 className="mt-5">My Hobbies</h4>
+          <h4 className="mt-5">Besides coding...</h4>
           <hr></hr>
           <br></br>
           <Row className="mt-4 mb-4">
@@ -86,6 +88,7 @@ class Hobbies extends React.Component {
             </button>
           </div>
         </Container>
+        <Contact />
       </React.Fragment>
     );
   }

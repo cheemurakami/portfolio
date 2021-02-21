@@ -10,7 +10,7 @@ function NavBar() {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand as={Link} to="/">
           <img style={{ marginRight: "10px" }} src={kiwiIcon} alt="kiwiIcon" />
-          Chisato Murakami Software Engineer
+          Chisato Murakami
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -18,17 +18,11 @@ function NavBar() {
             <Nav.Link as={Link} to="/home">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/skills">
-              Skills
-            </Nav.Link>
             <Nav.Link as={Link} to="/projects">
               Projects
             </Nav.Link>
-            <Nav.Link as={Link} to="/myhobbies">
-              My Hobbies
-            </Nav.Link>
-            <Nav.Link as={Link} to="/contact">
-              Contact
+            <Nav.Link as={Link} to="/aboutme">
+              About me
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
